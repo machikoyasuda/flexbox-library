@@ -1,0 +1,24 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300";
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+.icon {
+  align-self: flex-end;
+}
+.media {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  width: 300px;
+  border: 1px solid #e4e5e5;
+  padding: 20px;
+}
+.label {
+  text-transform: uppercase;
+}
+.media-figure {
+  margin-right: 1em;
+}
+.media-body {
+  flex: 1;
+}
